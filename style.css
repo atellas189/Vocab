@@ -16,18 +16,18 @@ html{
 h1{
     text-align: center;
     font-size: 300%;
-    color: tomato;
+    color: orangered;
     text-decoration: underline;
     font-family: 'Block';
 }
 .one{
     width: 80%;
-    border: 4px solid tomato;
+    border: 4px solid orangered;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-th {
+.one th {
     width: 120%;
 }
 .hover,
@@ -89,6 +89,7 @@ dl{
     border: 6px solid navy;
     width: 100%;
     border-collapse: collapse;
+    font-family: 'Curvy';
 }
 div{
     display: table-row;
@@ -101,4 +102,33 @@ dt, dd{
 dt{
     width: 10em;
     border-right: 6px solid navy;
+}
+dt:hover{
+    color: red;
+}
+dd:hover{
+    color: orangered;
+}
+
+    /* Third Table */
+
+.two{
+    width: 80%;
+    color: black;
+    background: linear-gradient( 45deg, gold, grey, gold, grey, gold, gray);
+    border: 8px solid rebeccapurple;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    font-family: 'Curvy';
+}
+.two th {
+    width: 75%;
+    padding: 4px;
+    border-right: 8px solid rebeccapurple;
+}
+
+.two th,td{
+    border-bottom: 8px solid rebeccapurple;
 }
